@@ -1,5 +1,8 @@
 # KuikMsg
- Optimize your productivity at work
+Optimize your productivity at work.
+Otimize sua produtividade no trabalho.
+
+Solução profissional multiplataforma para automação de mensagens, gerenciamento de templates e integração com sistemas de atendimento. Compatível com Chrome e Firefox.
 
 Automação de Mensagens
 Interface intuitiva com templates pré-configurados para respostas padronizadas e envio instantâneo durante atendimentos.
