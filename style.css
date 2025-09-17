@@ -1,0 +1,229 @@
+#botao-msg-rapida {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: hsl(0, 0%, 0%);
+  color: white;
+  padding: 12px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 9999;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#menu-msg-rapida {
+  display: none;
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  background: #fff;
+  border: 1px solid hsl(27, 98%, 65%);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  z-index: 9999;
+  padding: 10px;
+  border-radius: 10px;
+  width: 520px;
+  max-height: 300px; /* Limita altura */
+  overflow-y: auto; /* Habilita rolagem */
+}
+
+#menu-msg-rapida button {
+  display: block;
+  margin: 5px 0;
+  padding: 10px;
+  width: 100%;
+  background: #f7f7f7;
+  border: none;
+  border-radius: 6px;
+  text-align: left;
+  cursor: pointer;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Adiciona os "..." */
+}
+
+#menu-msg-rapida button:hover {
+  background: #e0e0e0;
+}
+
+/* Flappy Bird overlay styles (mirrored) */
+#flappy-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 80px;
+  background: #000000;
+  color: #fff;
+  padding: 12px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 10000;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+#flappy-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+}
+
+#flappy-container {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+  overflow: hidden;
+}
+
+#flappy-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+#flappy-title {
+  font-weight: 700;
+}
+
+#flappy-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#flappy-score {
+  margin-right: 8px;
+}
+
+#flappy-restart,
+#flappy-close {
+  background: #1e293b;
+  color: #e2e8f0;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+#flappy-restart:hover,
+#flappy-close:hover {
+  background: #334155;
+}
+
+#flappy-canvas {
+  display: block;
+}
+
+/* Add message modal styles */
+#add-message-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 10001;
+}
+
+.modal-content {
+  background: white;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.modal-header h3 {
+  margin: 0;
+  color: #333;
+}
+
+.close {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #999;
+}
+
+.close:hover {
+  color: #333;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-body textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: inherit;
+  font-size: 14px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 15px 20px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.save-btn, .cancel-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.save-btn {
+  background: #007bff;
+  color: white;
+}
+
+.save-btn:hover {
+  background: #0056b3;
+}
+
+.cancel-btn {
+  background: #6c757d;
+  color: white;
+}
+
+.cancel-btn:hover {
+  background: #545b62;
+}
+
+.add-message-btn {
+  background: hsl(207, 82%, 74%) !important;
+  color: white !important;
+  font-weight: bold;
+  border: none !important;
+}
+
+.add-message-btn:hover {
+  background: #f3a642 !important;
+}

@@ -1,0 +1,80 @@
+/* ===== RESET E BASE ===== */
+body {
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+    margin: 0;
+    color: #0f172a;
+    background: #7b92a8;
+    min-width: 280px;
+}
+
+/* ===== LAYOUT PRINCIPAL ===== */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: hwb(221 28% 13%);
+    color: #e2e8f0;
+    padding: 10px 0;
+}
+
+main {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/* ===== TIPOGRAFIA ===== */
+h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.muted {
+    color: #64748b;
+    padding: 10px 0;
+}
+
+/* ===== COMPONENTES ===== */
+.badge {
+    font-size: 12px;
+    background: hsl(310, 67%, 46%);
+    color: #e2e8f0;
+    padding: 2px 6px;
+    border-radius: 6px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    background: #ffffff;
+    color: #0f172a;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f1f5f9;
+}
+
+.info {
+    margin-top: 10px;
+    background: #e2e8f0;
+    color: #0f172a;
+    border-radius: 8px;
+    padding: 8px 10px;
+}
+
+.info ul {
+    margin: 6px 0 0 16px;
+    padding: 0;
+}
+
+/* ===== UTILITÁRIOS ===== */
+.px {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
